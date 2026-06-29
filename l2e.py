@@ -2,15 +2,13 @@
 # developped by Loé BERTRAND <louisgjbertrand@icloud.com>
 # MIT license
 
-
-from asyncio.windows_events import NULL
 from typing import Iterable
 from litemapy import Schematic, Region, BlockState
 import json
 
 class l2eUtility:
-    schem:Schematic = NULL
-    reg:Region =  NULL
+    schem:Schematic
+    reg:Region
     baseJson = {
         "id": "untitled_schematic",
         "name": "Untitled Schematic",
@@ -73,5 +71,5 @@ if __name__ == '__main__':
     output = util.convert()
 
     # output to file
-    with open("output.json", "a") as f:
+    with open("tests/output.json", "a") as f:
         f.write(json.dumps(output))
