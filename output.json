@@ -1,0 +1,209 @@
+{
+    "id": "untitled_schematic",
+    "name": "Untitled Schematic",
+    "description": "",
+    "minecraftEdition": "Java Edition",
+    "minecraftVersion": "current",
+    "category": "undefined",
+    "difficulty": "",
+    "tags": [],
+    "layers": {
+        "minY": 0,
+        "maxY": 1
+    },
+    "blocks": [
+        {
+            "id": "minecraft:white_wool",
+            "pos": [
+                -3,
+                0,
+                -1
+            ],
+            "state": {},
+            "label": "Undefined"
+        },
+        {
+            "id": "minecraft:white_wool",
+            "pos": [
+                -3,
+                0,
+                0
+            ],
+            "state": {},
+            "label": "Undefined"
+        },
+        {
+            "id": "minecraft:lever",
+            "pos": [
+                -3,
+                1,
+                -1
+            ],
+            "state": {
+                "face": "floor",
+                "powered": "false",
+                "facing": "east"
+            },
+            "label": "Undefined"
+        },
+        {
+            "id": "minecraft:air",
+            "pos": [
+                -3,
+                1,
+                0
+            ],
+            "state": {},
+            "label": "Undefined"
+        },
+        {
+            "id": "minecraft:white_wool",
+            "pos": [
+                -2,
+                0,
+                -1
+            ],
+            "state": {},
+            "label": "Undefined"
+        },
+        {
+            "id": "minecraft:white_wool",
+            "pos": [
+                -2,
+                0,
+                0
+            ],
+            "state": {},
+            "label": "Undefined"
+        },
+        {
+            "id": "minecraft:comparator",
+            "pos": [
+                -2,
+                1,
+                -1
+            ],
+            "state": {
+                "mode": "subtract",
+                "powered": "false",
+                "facing": "west"
+            },
+            "label": "Undefined"
+        },
+        {
+            "id": "minecraft:redstone_wire",
+            "pos": [
+                -2,
+                1,
+                0
+            ],
+            "state": {
+                "east": "side",
+                "south": "none",
+                "north": "side",
+                "west": "none",
+                "power": "0"
+            },
+            "label": "Undefined"
+        },
+        {
+            "id": "minecraft:white_wool",
+            "pos": [
+                -1,
+                0,
+                -1
+            ],
+            "state": {},
+            "label": "Undefined"
+        },
+        {
+            "id": "minecraft:white_wool",
+            "pos": [
+                -1,
+                0,
+                0
+            ],
+            "state": {},
+            "label": "Undefined"
+        },
+        {
+            "id": "minecraft:redstone_wire",
+            "pos": [
+                -1,
+                1,
+                -1
+            ],
+            "state": {
+                "east": "side",
+                "south": "side",
+                "north": "none",
+                "west": "side",
+                "power": "0"
+            },
+            "label": "Undefined"
+        },
+        {
+            "id": "minecraft:redstone_wire",
+            "pos": [
+                -1,
+                1,
+                0
+            ],
+            "state": {
+                "east": "none",
+                "south": "none",
+                "north": "side",
+                "west": "side",
+                "power": "0"
+            },
+            "label": "Undefined"
+        },
+        {
+            "id": "minecraft:white_wool",
+            "pos": [
+                0,
+                0,
+                -1
+            ],
+            "state": {},
+            "label": "Undefined"
+        },
+        {
+            "id": "minecraft:white_wool",
+            "pos": [
+                0,
+                0,
+                0
+            ],
+            "state": {},
+            "label": "Undefined"
+        },
+        {
+            "id": "minecraft:redstone_wire",
+            "pos": [
+                0,
+                1,
+                -1
+            ],
+            "state": {
+                "east": "side",
+                "south": "none",
+                "north": "none",
+                "west": "side",
+                "power": "0"
+            },
+            "label": "Undefined"
+        },
+        {
+            "id": "minecraft:air",
+            "pos": [
+                0,
+                1,
+                0
+            ],
+            "state": {},
+            "label": "Undefined"
+        }
+    ],
+    "controls": []
+}

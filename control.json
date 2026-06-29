@@ -1,0 +1,139 @@
+{
+    "id": "compact-door",
+    "name": "Note block vers piston",
+    "description": "Un note block declenche un observer, qui pulse une copper bulb lue par comparator pour actionner un piston.",
+    "minecraftEdition": "Java Edition",
+    "minecraftVersion": "current",
+    "category": "Pulses",
+    "difficulty": "intermediaire",
+    "tags": [
+        "note-block",
+        "observer",
+        "copper-bulb",
+        "comparator",
+        "piston"
+    ],
+    "layers": {
+        "minY": 0,
+        "maxY": 1
+    },
+    "blocks": [
+        {
+            "id": "minecraft:white_wool",
+            "pos": [
+                0,
+                0,
+                0
+            ],
+            "label": "Support note block"
+        },
+        {
+            "id": "minecraft:white_wool",
+            "pos": [
+                2,
+                0,
+                0
+            ],
+            "label": "Support copper bulb"
+        },
+        {
+            "id": "minecraft:white_wool",
+            "pos": [
+                3,
+                0,
+                0
+            ],
+            "label": "Support comparator"
+        },
+        {
+            "id": "minecraft:note_block",
+            "pos": [
+                0,
+                1,
+                0
+            ],
+            "state": {
+                "instrument": "harp",
+                "note": "0",
+                "powered": "false"
+            },
+            "label": "Note block"
+        },
+        {
+            "id": "minecraft:observer",
+            "pos": [
+                1,
+                1,
+                0
+            ],
+            "state": {
+                "facing": "west",
+                "powered": "false"
+            },
+            "label": "Observer"
+        },
+        {
+            "id": "minecraft:copper_bulb",
+            "pos": [
+                2,
+                1,
+                0
+            ],
+            "state": {
+                "lit": "false",
+                "powered": "false"
+            },
+            "label": "Memoire"
+        },
+        {
+            "id": "minecraft:comparator",
+            "pos": [
+                3,
+                1,
+                0
+            ],
+            "state": {
+                "facing": "east",
+                "mode": "compare",
+                "powered": "false"
+            },
+            "label": "Lecture bulb"
+        },
+        {
+            "id": "minecraft:sticky_piston",
+            "pos": [
+                4,
+                1,
+                0
+            ],
+            "state": {
+                "facing": "east",
+                "extended": "false"
+            },
+            "label": "Piston"
+        },
+        {
+            "id": "minecraft:lime_wool",
+            "pos": [
+                5,
+                1,
+                0
+            ],
+            "label": "Bloc pousse"
+        }
+    ],
+    "controls": [
+        {
+            "id": "NOTE",
+            "label": "Note block",
+            "pos": [
+                0,
+                1,
+                0
+            ],
+            "mode": "pulse",
+            "type": "boolean",
+            "defaultValue": false
+        }
+    ]
+}
