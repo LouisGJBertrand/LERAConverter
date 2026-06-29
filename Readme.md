@@ -30,3 +30,11 @@ output = util.convert()
 with open("tests/output.json", "a") as f:
     f.write(json.dumps(output))
 ```
+
+# License
+
+Free to use - MIT Standard License
+
+# Contributors
+
+Loé BERTRAND
