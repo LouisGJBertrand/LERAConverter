@@ -66,10 +66,10 @@ if __name__ == '__main__':
     util: l2eUtility = l2eUtility()
 
     # load schem
-    util.loadSchem("simpleClock.litematic")
+    util.loadSchem("test.litematic")
     # convert schem
     output = util.convert()
 
     # output to file
-    with open("tests/output.json", "a") as f:
+    with open("tests/output.json", "w") as f:
         f.write(json.dumps(output))
